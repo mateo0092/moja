@@ -1,0 +1,28 @@
+.login{
+	background-color: rgba(12, 89, 255, 0.5);
+	background-size: cover;
+	height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#loginForm{
+	max-width: 400px;
+	width: 100%;
+	padding: 20px;
+	background-color: rgba(172, 214, 255, 0.58);
+	border: 3px solid #696969;
+	border-radius: 10px;
+}
+#loginForm input{
+	width: 100%;
+	padding: 5px 10px;
+	margin: 5px auto;
+	border: 1px solid #696969;
+	border-radius: 5px;
+}
+#loginForm input[type="submit"]{
+	background-color: #01ec72;
+	color:#404040;
+	font-size: 1.3em;
+	font-weight: bold;
+}

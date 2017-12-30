@@ -1,0 +1,29 @@
+header{
+	background-image: url('../img/bg_header.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+header nav{
+    align-items: center;
+	text-align: center;
+}
+header ul{
+	list-style: none;
+}
+header ul li{
+	display: inline-block;
+}
+header a{
+	color: #FFF;
+	text-transform: uppercase;
+	padding: 5px 20px;
+	cursor: pointer;
+	margin: 0 10px;
+	font-size: 1em;
+}
+header li a:hover{
+	border-bottom: 3px solid #fce38a;
+}
+header a:hover{
+	color: #fce38a;
+}
